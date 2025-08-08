@@ -6,11 +6,20 @@
             var numPerDay = 0.429;
             totalRequired = (numPerDay*365)*(maxAge-age);
             var roundedNumber = Math.round(totalRequired);
-    
-        document.write("you will need to play tennis for " + roundedNumber + " to last you until the ripe golden age of " + maxAge);
+
+        document.write("<p style='font-size: 32px;'> You will need to play tennis for " + roundedNumber + " to last you until the ripe golden age of " + maxAge + "</p>");
        
 
     </script>
+    <style>
+        body 
+        {
+            font-family: system-ui, sans-serif;
+            background: lightcyan;
+            padding: 80px;
+            color: #008080;
+        }
+    </style>
 
 </body>
 </html>
