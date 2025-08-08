@@ -1,25 +1,31 @@
 <html>
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0"> 
+        <script >
+                var age = 14;
+                var maxAge = 95;
+                var numPerDay = 0.429;
+                totalRequired = (numPerDay*365)*(maxAge-age);
+                var roundedNumber = Math.round(totalRequired);
+
+            
+        
+
+        </script>
+        <style>
+            body 
+            {
+                font-family: system-ui, sans-serif;
+                background: lightcyan;
+                padding: 80px;
+                color: #008080;
+            }
+        </style>
+    </head>
+
 <body>
-    <script >
-            var age = 14;
-            var maxAge = 95;
-            var numPerDay = 0.429;
-            totalRequired = (numPerDay*365)*(maxAge-age);
-            var roundedNumber = Math.round(totalRequired);
-
+    <script>
         document.write("<p style='font-size: 32px;'> You will need to play tennis for " + roundedNumber + " to last you until the ripe golden age of " + maxAge + "</p>");
-       
-
     </script>
-    <style>
-        body 
-        {
-            font-family: system-ui, sans-serif;
-            background: lightcyan;
-            padding: 80px;
-            color: #008080;
-        }
-    </style>
-
 </body>
 </html>
