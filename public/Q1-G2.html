@@ -1,5 +1,6 @@
 <html>
 <head>
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
     <style>
         body
         {
@@ -35,7 +36,7 @@ function CalculateTotal()
     var serviceCharge = parseFloat(in2) / 100;
     var tip = Number(in3.value);
 
-    var total = mealPrice +(mealPrice * serviceCharge + tip)
+    var total = mealPrice +(mealPrice * serviceCharge) + tip;
 }
 
 </script>
