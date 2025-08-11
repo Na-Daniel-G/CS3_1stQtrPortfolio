@@ -1,0 +1,45 @@
+<html>
+<head>
+    <style>
+        body
+        {
+            background-color: lightcyan;
+            font-family: system-ui, sans-serif;
+            padding: 80px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Daniel Gabud - 9Na - Aug 11, 2025</h1>
+<h2>Second Graded Exercise - First Quarter</h2>
+
+<p> Here's a list of my friends</p>
+<input id="in1" type="text" placeholder="Meal Price"> 
+<input id="in2" type="text" placeholder="Tip"> 
+<input id="in3" type="text" placeholder="Service Charge"> <br>
+
+<button onclick="CalculateTotal()">Calculate Total</button>
+
+<div id="out1" style="background-color: #008080;border: 5px solid aquamarine; font-weight: bold; color: white;"></div>
+
+<script> 
+function CalculateTotal()
+{
+    var in1 = document.getElementById("int1").value;
+    var in1 = document.getElementById("int2").value;
+    var in1 = document.getElementById("int3").value;
+
+    var mealPrice = parseFloat(in1);
+    var serviceCharge = parseFloat(in2) / 100;
+    var tip = Number(in3.value);
+
+    var total = mealPrice +(mealPrice * serviceCharge + tip)
+}
+
+</script>
+
+</body>
+
+</html>
