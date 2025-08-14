@@ -1,16 +1,80 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body
+        {
+            background-color: lightcyan;
+            font-family: system-ui, sans-serif;
+            padding: 80px;
+            text-align: center;
+        }
+        .header-box
+        {
+            border: 3px solid teal;    
+            background-color: aquamarine; 
+            padding: 10px;             
+            margin: 10px auto;          
+            width: fit-content;         
+            border-radius: 10px;              
+        }
+        nav p 
+        {
+            font-size: large;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
 <body>
+    <div class="header-box">
+    <h2> Q1 3rd Graded Exercise submitted by Daniel S. Gabud</h2>
+    </div>
 
-   <h2> Q1 3rd Graded Exercise submitted by name of section</h2>
-   <!-- Enter your HTML tags below  but before the opening script tag -->
+    <nav>
+    <p>guess the number: ***</p><br>
+    <p>The number is 1-100</p><br>
+    </nav>
 
-    <script>
+    <input id="in1" type="text" placeholder="Enter Guess">
+
+    <button onclick="checkIt()">Check it</button>
+
+    <div id="out1" style="background-color: #008080;border: 5px solid aquamarine; font-weight: bold; color: white;"></div>
+
+    <script> 
 
        var dNumber = Math.floor(Math.random() * 100) + 1; // generates a number from 1  to 100 when the page loads
 
         function checkIt() {
-              
+
+            var num = parseFloat(document.getElementById("in1").value);
+            var result;
+
+            if (num == dNumber)
+            {
+                result = "You are correct!"; 
+            }
+
+            else if(num > dNumber)
+            {
+                result = "Lower"; 
+            }
+            
+            else 
+            {
+                result = "Higher"; 
+            }
+
+            document.getElementById("out1").innerHTML = "Result: " + result; 
             
          
         }
