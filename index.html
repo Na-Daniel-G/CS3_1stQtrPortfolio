@@ -40,7 +40,7 @@
       background: var(--box-color);
       padding: 32px;
       border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0,0.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
     }
 
     /* Header*/
@@ -56,11 +56,15 @@
     {
       list-style: none;
       padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      justify-content: center;
     }
 
     nav li
     {
-      margin-bottom: 16px;
+      margin: 0;
     }
 
     nav a
@@ -70,9 +74,11 @@
       font-weight: bold;
       background-color: lightcyan;
       padding: 12px 20px;
-      display: inline-block;
+      display: block;
       border-radius: 100px;
       transition: background-color 0.3s;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1)
     }
 
     nav a:hover 
@@ -94,8 +100,7 @@
             <li><a href="public/Q1-G2.html"> ⭐️ Second Exercise </a></li>
             <li><a href="public/Q1-G3.html"> ❤️ third Exercise </a></li>
             <li><a href="public/Q11stNGSodiumGabud.html"> 📘Q1 1st Non-Graded </a></li>
-             <li><a href="public/part1_structure_sprint.html"> Q1 1st Non-Graded </a></li>
-            <li><a href="public/TestFile.html"> 🧪Testing </a></li>
+             <li><a href="public/part1_structure_sprint.html"> part 1 structure sprint </a></li>
         </ul>
       </nav>
     </section>
