@@ -28,6 +28,8 @@ function give_channel_name(num){
         case '5':
             console.log("tv5");
             break;
+        default:
+            console.log("unknown channel");
     }
 
 }
