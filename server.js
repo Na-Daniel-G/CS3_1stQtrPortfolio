@@ -25,7 +25,7 @@ function give_channel_name(num){
         case '4':
             console.log("ptv");
             break;
-        case '5':
+        case 'five':
             console.log("tv5");
             break;
         default:
