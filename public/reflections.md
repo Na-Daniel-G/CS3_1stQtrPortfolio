@@ -1,3 +1,4 @@
+
 ## **1. List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with twoto five sentences.**
 ### 1. Arithmetic Operators: 
 These are the mathematical processes like addition, subtraction, multiplication, divission and more used to manipulate numbers. I am very confident in this lesson because it is easy to use and very simple and basic.
@@ -25,3 +26,4 @@ These are the values are built in to the Number() object. It is a simple topic b
 I would try to do more practice problems involving them like making more codes involving loops and arrays to make me more familiar with them. I just need more hands on practice.
 ## **4. In the activities that were done in class, list at least two that you think were effective and at least two that you think not effective in helping you understand topics in our course and why?**
 I think the activities with my group mates like the "make the right code that displays this triangle" activity or the ones where we help each other out to learn the code more is very fun. The ones I didn't like the most were the ones where we had to do a lot of things alone like the bonus task with the website personal home page or the SONA reflection because although they were fun I believe that coding is better when you colaborate with other people because you learn more together than alone.
+
